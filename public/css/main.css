@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f9f9f9;
+}
+
+main {
+  padding: 1rem;
+  margin: auto;
+}
+
+form {
+  display: inline;
+}
+
+.centered {
+  text-align: center;
+}
+
+.main-header {
+  width: 100%;
+  height: 3.5rem;
+  background-color: white;
+  padding: 0 4rem;
+  display: block;
+  
+  box-shadow: 0 2px 2px 0px rgba(0,0,0,0.07);
+}
+
+.main-header__nav {
+  height: 100%;
+  display: block;
+  align-items: center;
+}
+.main-header__nav img {
+  height: 55px;
+  margin-top: 2px; 
+
+}
+
+.main-header__item-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  float: right;
+  margin-top: 15px;
+}
+
+
+.main-header__item {
+  margin: 0 1rem;
+
+}
+
+.main-header__item a {
+  text-decoration: none;
+  color: #a7a7a7;
+  font-size: 14px;
+
+}
+
+.main-header__item a:hover,
+.main-header__item a:active,
+.main-header__item a.active {
+  color:  #131313;
+
+}
+
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 5;
+  display: none;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+.card__header,
+.card__content {
+  padding: 1rem;
+}
+
+.card__header h1,
+.card__content h1,
+.card__content h2,
+.card__content p {
+  margin: 0;
+}
+
+.card__image {
+  text-align: center;
+}
+
+.card__image img {
+  height:150px;
+}
+
+.card__actions {
+  padding: 1rem;
+  text-align: center;
+}
+
+.card__actions button,
+.card__actions a {
+  margin: 0 0.25rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.25rem 1rem;
+  text-decoration: none;
+  font: inherit;
+  border: 1px solid #c5c5c5;
+  color: #c5c5c5;
+  background: transparent;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #68dbc9;
+  color: white;
+  border-color: #68dbc9;
+}
+
+@media (min-width: 768px) {
+  .main-header__nav {
+    display: block;
+  }
+
+ 
+}

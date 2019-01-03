@@ -1,0 +1,30 @@
+<div class="backdrop"></div>
+<header class="main-header">
+    <nav class="main-header__nav">
+        <a class="<%= path === '/admin/add-product' ? 'active' : '' %>" href="/admin/add-product">
+                    <img src="https://www.banquedesterritoires.fr/sites/default/files/2018-11/logo-black.eafb5d1.png">
+                
+        </a>
+
+        <ul class="main-header__item-list">
+            
+            <li class="main-header__item">
+                <a class="<%= path === '/admin/add-product' ? 'active' : '' %>" href="/admin/add-product">Add Product
+                </a>
+            </li>
+            <li class="main-header__item">
+                <a class="<%= path === '/admin/products' ? 'active' : '' %>" href="/admin/products">All Products
+                </a>
+            </li>
+            <li class="main-header__item">
+                <a class="<%= path === '' ? 'active' : '' %>" href="/admin/add-product">Sign In
+                </a>
+            </li>
+            <li class="main-header__item">
+                <a class="<%= path === '' ? 'active' : '' %>" href="/admin/products">Sign Up
+                </a>
+            </li>
+
+        </ul>
+    </nav>
+</header>
