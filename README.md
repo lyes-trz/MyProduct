@@ -9,8 +9,8 @@ Node.js | Express.js | MongoDB " Web App " ⌚
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:3080
-npm run dev
+# serve with hot reload at localhost:3000
+npm start
 
 ```
 
