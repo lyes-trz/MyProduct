@@ -1,9 +1,22 @@
-<div class="backdrop"></div>
-<header class="main-header">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Troov</title>
+    <link rel="stylesheet" href="/css/home.css">   
+</head>
+
+
+<body>
+
+  <header class="main-header">
+
     <nav class="main-header__nav">
+
         <a class="<%= path === '/admin/home' ? 'active' : '' %>" href="/admin/home">
-                    <img src="https://www.banquedesterritoires.fr/sites/default/files/2018-11/logo-black.eafb5d1.png">
-                
+            <img src="/pic/troov-white.png">
         </a>
 
         <ul class="main-header__item-list">
@@ -27,4 +40,25 @@
 
         </ul>
     </nav>
+
+
+
+    <p class="troov"><a href="#" class="logo">Troov.com</a></p>
+    <p class="sub">LOST OR FOUND SOMETHING? LET US HELP YOU</p>       
+           
+    <div class="btnGroup">
+         <a href="/admin/add-product" class="btnWhite">Add Product</a>
+         <a href="/admin/add-product" class="btnWhite">Log In</a>
+         <div class="whiteBG"></div>
+    </div>
 </header>
+
+
+
+
+
+
+
+</body>
+
+</html>    

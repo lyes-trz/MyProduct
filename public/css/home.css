@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  background-color: white;
+}
+
+
+
+.main-header {
+   background-image: url(/pic/c.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    min-height: 100vh;
+    width: 100%;
+    padding:0 5%; 
+    position: relative;
+  
+}
+
+.main-header__nav {
+  width: 100%;
+  display: inline-block;
+  align-items: center;
+}
+.main-header__nav img {
+  height: 55px;
+  margin-top: 2px; 
+
+}
+
+.main-header__item-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  float: right;
+  margin-top: 15px;
+}
+
+
+.main-header__item {
+  margin: 0 1rem;
+
+}
+
+.main-header__item a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+
+}
+
+.main-header__item a:hover,
+.main-header__item a:active,
+.main-header__item a.active {
+  color:  #68dbc9;
+
+}
+
+
+header p {
+    color: white;
+    margin-top: 40px;
+    opacity: 0.9;
+}
+header p.troov {
+    color: white;
+    margin-top: 140px;
+    font-family: Great Day Personal Use;
+    text-align: center;
+  
+    
+}
+header p.sub {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: -40px;
+    font-size: 11px;
+  
+    
+}
+header p.troov > a{
+    
+    font-size: 90px;
+    outline: none;
+    text-decoration: none; 
+    color: white;
+    
+    
+}
+
+
+.btnWhite{
+    display: inline-block;
+    text-decoration: none;
+    padding: 4px 5px 4px 5px;
+    margin-left: 15px;
+    font-size: 11px;
+    font-weight:50;
+    text-align: center;
+    
+    color: white;
+    text-align: center;
+    border: solid 1.2px ;
+    
+
+    
+}
+.btnWhite:hover{
+ 
+    border-color: white;
+    color: #948475;
+    background-color: white;
+    
+}
+
+.btnGroup {
+    text-align: center;
+    z-index: 1;
+    
+
+}
+.whiteBG {
+    background-color: white;
+    display: block;
+    height: 60px;
+    width: 200px;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+}
+
+.btnColor{
+    display: inline-block;
+    text-decoration: none;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-image: var(--main-gradien);
+    color: white;
+    font-size:20px;
+    font-weight: 700;
+    
+}
+
+
+
+@media (min-width: 768px) {
+  .main-header__nav {
+    display: block;
+  }
+
+ 
+}

@@ -1,6 +1,12 @@
 const Product = require('../models/product');
 
-
+exports.getHome = (req, res, next) => {
+  res.render('admin/home', {
+    pageTitle: 'Home',
+    path: '/admin/home',
+    editing: false
+  });
+};
 
 exports.getAddProduct = (req, res, next) => {
   res.render('admin/edit-product', {
